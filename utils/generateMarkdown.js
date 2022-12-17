@@ -8,7 +8,7 @@ function renderLicenseBadge(license) {
     return `[![Apache](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
   } else if (license === "gnu") {
     return `[![GNU](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)`
-  } else if (license === "MIT") {
+  } else if (license === "mit") {
     return `[![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
   }
   //if license is declared; return license badge; use switch case or if statements
@@ -41,11 +41,11 @@ function generateMarkdown({ title, description, instructions, usage, contributio
 
   ## Description
 
-  My project description is the following: ${description}.
+  My project description is the following: ${description}
 
   ## Installation Instructions
 
-  The instructions used in the project are ${instructions}.
+  The instructions used in the project are ${instructions}
 
   ## Usage
   The user will do the following in order to use the project application: ${usage}
