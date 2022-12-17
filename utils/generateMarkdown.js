@@ -76,7 +76,7 @@ function generateMarkdown({ title, description, toc, instructions, usage, contri
 
   ## Questions
 
-  The test instructions are as follows: ${questions}
+  ${questions}
 
 `;
 }
