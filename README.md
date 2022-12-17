@@ -1,26 +1,34 @@
-# Title,
-  The title of my project is Monthly Calendar.
-
-  ## Description
-
-  My project description is the following: For group 7’s Project 1 we created an interactive user experience using a personal calendar. The calendar will reflect the user’s schedule based on the following: desired NFL teams and their game schedules, holidays, and personal tasks. It’s convenient to be able to make your own calendar and also add events you are interested in by the click of a button (in this case, clicking your favorite football team to get their game schedule on your calendar).
-
-  ## Installation Instructions
-
-  The instructions used in the project are Using public APIs, we were able to account for every NFL team and their game schedule as well as national holidays. 
-
-  ## Usage
-  The user will do the following in order to use the project application: The user can interactively use their calendar and add personal events by clicking on their desired date, entering a time and task name, and pressing enter to save their updates.
-
-  ## Contributions
-
-  As a project coordinater, I was able to contribute by creating the repo, helping code the HTML and CSS files, and anything else to assist my team in successfully launching Project 1.
-
-  ## Test
-
-  The test instructions are as follows: AS an organized person I WANT to see holidays and NFL game dates in my calendar.
-
 ## License
 
     The license used was apache
-[![Apache](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  [![Apache](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  
+  # Title
+  The title of my project is Monthly calendar.
+
+  ## Description
+
+  My project description is the following: An interactive monthly calendar that allowed users to choose the NFL team of their choice and add their game schedule to their calendar. Users also saw holidays and had the ability to create their own personal events.
+
+  ## Table of Contents:
+  1. [Description](#description) 2. [Installation](#installation) 3. [Usage](#usage) 4. [Contributions](#contributions) 5. [Test](#test) 6. [Questions](#questions) 7. [License](#license)
+
+  ## Installation Instructions
+
+  The instructions used in the project are Fetched APIs for holidays and NFL; Javascript
+
+  ## Usage
+  The user will do the following in order to use the project application: By interacting with the calendar by clicking on desired dates and adding their personal event in the input field; they can also select their NFL team in the nav bar to add it to their calendar.
+
+  ## Contributions
+
+  As a project coordinater, I was able to contribute by Created the repo, HTML, CSS, and assisted team members to get the application up and running successfully.
+
+  ## Test
+
+  The test instructions are as follows: N/A
+
+  ## Questions
+
+  The test instructions are as follows: undefined
+

@@ -11,12 +11,22 @@ function renderLicenseBadge(license) {
   } else if (license === "mit") {
     return `[![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
   }
-  //if license is declared; return license badge; use switch case or if statements
 }
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
+  if (license === "apache") {
+    return `https://opensource.org/licenses/Apache-2.0`
+  } else if (license === "gnu") {
+    return `https://www.gnu.org/licenses/gpl-3.0`
+  } else if (license === "mit") {
+    return `https://opensource.org/licenses/MIT`
+  } else if (license === "none") {
+    return "";
+  }
+
+
 
   //build table of contents here
   //if no license, we do not need license link
@@ -35,13 +45,19 @@ function renderLicenseSection(license) {
 }
 
 // TODO: Create a function to generate markdown for README
-function generateMarkdown({ title, description, instructions, usage, contributions, test, license }) {
-  return `# Title
+function generateMarkdown({ title, description, toc, instructions, usage, contributions, test, license, questions }) {
+  return `${renderLicenseSection(license)}
+  ${renderLicenseBadge(license)}
+  
+  # Title
   The title of my project is ${title}.
 
   ## Description
 
   My project description is the following: ${description}
+
+  ## Table of Contents:
+  ${toc}
 
   ## Installation Instructions
 
@@ -58,8 +74,10 @@ function generateMarkdown({ title, description, instructions, usage, contributio
 
   The test instructions are as follows: ${test}
 
-${renderLicenseSection(license)}
-${renderLicenseBadge(license)}
+  ## Questions
+
+  The test instructions are as follows: ${questions}
+
 `;
 }
 

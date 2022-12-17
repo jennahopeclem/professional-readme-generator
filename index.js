@@ -16,6 +16,11 @@ const questions = [{
 },
 {
     type: "input",
+    message: "Table of Contents:",
+    name: "toc",
+},
+{
+    type: "input",
     message: "What are your installation instructions?",
     name: "instructions",
 },
@@ -37,6 +42,12 @@ const questions = [{
     message: "What are the test instructions?",
     name: "test",
 },
+
+// {
+//     type: "input",
+//     message: "What is your Github username?",
+//     name: "questions",
+// },
 
 {
     type: "list",
